@@ -1,0 +1,17 @@
+.body {
+	@apply mt-5 border-b border-mainBlue pb-2;
+
+	.content {
+		@apply grid grid-cols-2 text-descColor;
+
+		.icon {
+			@apply mr-5 transition-all delay-75 duration-200 ease-in-out;
+		}
+
+		&:hover {
+			.icon {
+				@apply mr-0;
+			}
+		}
+	}
+}

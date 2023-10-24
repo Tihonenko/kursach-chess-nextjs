@@ -1,0 +1,11 @@
+.link_to {
+	@apply w-[300px] rounded-xl bg-heroColor py-2 text-center;
+
+	p {
+		@apply font-text text-lg font-bold text-lightBlack;
+	}
+
+	&:hover {
+		@apply bg-mainColor;
+	}
+}

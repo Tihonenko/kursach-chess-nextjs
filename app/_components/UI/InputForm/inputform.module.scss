@@ -1,0 +1,15 @@
+.input_wrapper {
+	@apply w-full;
+	.label {
+		@apply block text-descColor;
+	}
+
+	.input {
+		@apply w-full border-b border-mainBlue bg-black/0 pl-3 outline-none transition-all duration-150;
+
+		&:active,
+		&:focus {
+			@apply border-descColor;
+		}
+	}
+}

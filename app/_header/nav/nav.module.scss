@@ -1,0 +1,11 @@
+.nav {
+	@apply overflow-hidden;
+
+	.wrapper {
+		@apply mb-20 gap-10;
+	}
+
+	.container {
+		@apply grid grid-flow-col md:grid-cols-2;
+	}
+}
