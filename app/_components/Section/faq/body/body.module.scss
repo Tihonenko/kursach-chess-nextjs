@@ -1,13 +1,12 @@
 .wrapper {
 	@apply mt-10 grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-4;
+}
 
-	.content {
-		.title {
-			@apply text-xl font-bold text-mainColor;
-		}
-
-		.text {
-			@apply mt-3 text-descColor;
-		}
-	}
+.content {
+}
+.title {
+	@apply text-xl font-bold text-mainColor;
+}
+.text {
+	@apply mt-3 text-descColor;
 }
