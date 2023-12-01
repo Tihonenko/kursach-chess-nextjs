@@ -5,9 +5,12 @@ import PricesList from './prices-list/PricesList';
 
 const Prices = () => {
 	return (
-		<section className='container mt-44'>
+		<section className='container mt-44' id='price'>
 			<div>
-				<Link href='/plans' className='heading-link-medium'>
+				<Link
+					href='/registration'
+					className='heading-link-medium heading-animate'
+				>
 					Prices
 				</Link>
 			</div>

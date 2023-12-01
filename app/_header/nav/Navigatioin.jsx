@@ -12,8 +12,8 @@ const navData = [
 		path: '/',
 	},
 	{
-		name: 'Plans',
-		path: 'plans',
+		name: 'Price',
+		path: '#price',
 	},
 	{
 		name: 'About us',
@@ -24,8 +24,8 @@ const navData = [
 		path: 'teams',
 	},
 	{
-		name: 'Rules',
-		path: 'rules',
+		name: 'Education',
+		path: 'education',
 	},
 	{
 		name: 'Registr.',

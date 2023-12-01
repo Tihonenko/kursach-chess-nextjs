@@ -24,7 +24,10 @@ const Gallery = () => {
 	return (
 		<section className={`container ${styles.wrapper}`}>
 			<div>
-				<Link href='/' className='heading-link-medium'>
+				<Link
+					href='/gallery'
+					className='heading-link-medium heading-animate'
+				>
 					Gallery
 				</Link>
 			</div>
@@ -39,7 +42,7 @@ const Gallery = () => {
 					/>
 				))}
 			</div>
-			<div className='mt-10 grid place-content-center'>
+			<div className='col-span-2 mx-auto mt-10 w-full md:w-1/2 lg:w-1/3'>
 				<LinkTo href='/gallery'>To Gallery</LinkTo>
 			</div>
 		</section>

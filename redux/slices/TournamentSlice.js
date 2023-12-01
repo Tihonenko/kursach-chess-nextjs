@@ -4,43 +4,58 @@ const initialState = {
 	data: {
 		tournament: [
 			{
+				id: 1,
 				date: 'November 5, 2023',
 				title: 'Grandmaster Invitational',
-				href: '/tournament',
+				href: '/tournaments',
+				img: '/gallery/poster/grandmaster-invitational.jpg',
 			},
 			{
+				id: 2,
 				date: 'November 20, 2023',
 				title: '5 Minutes Blitz Bonanza',
-				href: '/tournament',
+				href: '/tournaments',
+				img: '/gallery/poster/blitz-bonanz.jpg',
 			},
 			{
+				id: 3,
 				date: 'December 1, 2023',
 				title: 'All-round Amateur Battle',
-				href: '/tournament',
+				href: '/tournaments',
+				img: '/gallery/poster/all-round.jpg',
 			},
 			{
+				id: 4,
 				date: 'December 11, 2023',
 				title: 'Elite Rapid Clash',
-				href: '/tournament',
+				href: '/tournaments',
+				img: '/gallery/poster/rapid-clash.jpg',
 			},
 			{
+				id: 5,
 				date: 'Januar 3, 2024',
 				title: "New Year's Chess Extravaganza",
-				href: '/tournament',
+				href: '/tournaments',
+				img: '/gallery/poster/tournament-3.jpg',
 			},
 			{
+				id: 6,
 				date: 'Januar 18, 2024',
 				title: 'All-round Amateur Blitz',
-				href: '/tournament',
+				href: '/tournaments',
+				img: '/gallery/poster/all-round.jpg',
 			},
 			{
+				id: 7,
 				date: 'Januar 28, 2024',
 				title: 'Real Knight',
-				href: '/tournament',
+				href: '/tournaments',
+				img: '/gallery/poster/real-knight.jpg',
 			},
 		],
 	},
 	tournamentPagination: [],
+	tournamentOne: null,
 };
 
 export const TournamentSlice = createSlice({
@@ -53,29 +68,6 @@ export const TournamentSlice = createSlice({
 	},
 	extraReducers: {},
 });
-
-// export const coffeeTypesAction = createAction('coffeeTypes', () => {
-// 	return {
-// 		data: [
-// 			{
-// 				name: 'Americano',
-// 				price: 9.99,
-// 			},
-// 			{
-// 				name: 'Latte',
-// 				price: 7.99,
-// 			},
-// 			{
-// 				name: 'Сappuccino',
-// 				price: 7.99,
-// 			},
-// 		],
-// 	};
-// });
-// const teaTypesAction = createAction('teaTypes');
-
-// MenuSlice.actions.coffeeTypes = coffeeTypesAction;
-// MenuSlice.actions.teaTypes = teaTypesAction;
 
 export const { tournamentPagin } = TournamentSlice.actions;
 

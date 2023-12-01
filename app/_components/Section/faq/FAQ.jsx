@@ -4,10 +4,10 @@ import Body from './body/Body';
 
 const FAQ = () => {
 	return (
-		<section className='container mt-44'>
+		<section className='container mt-44' id='faq'>
 			<div>
 				<div>
-					<h3 className='heading-link-medium'>
+					<h3 className='heading-medium heading-animate text-mainColor'>
 						Frequently Asked Questions
 					</h3>
 				</div>

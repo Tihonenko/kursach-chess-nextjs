@@ -1,0 +1,19 @@
+.wrapper {
+	@apply w-full;
+}
+
+.content {
+	@apply text-white;
+
+	& > h3 {
+		@apply heading-medium mt-20 text-mainColor;
+	}
+
+	& > p {
+		@apply mt-5 text-lg;
+	}
+
+	.link_to {
+		@apply mx-auto mt-5 w-full md:w-1/2;
+	}
+}

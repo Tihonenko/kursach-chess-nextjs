@@ -22,7 +22,9 @@ const ListTournament = () => {
 			{tournament.map((info, idx) => (
 				<Body key={idx} info={info} />
 			))}
-			<Body info={{ title: 'View more tournaments', href: '/tournament' }} />
+			<Body
+				info={{ title: 'View more tournaments', href: '/tournaments' }}
+			/>
 		</div>
 	);
 };

@@ -2,9 +2,9 @@ import React from 'react';
 
 const Welcome = () => {
 	return (
-		<section className='container mt-64 overflow-hidden'>
+		<section className='container mt-64 overflow-hidden' id='welcome'>
 			<div>
-				<h3 className='heading-medium text-mainColor'>
+				<h3 className='heading-medium heading-animate text-mainColor'>
 					Welcome to Chess Club
 				</h3>
 			</div>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = () => {
 	return (
-		<section className='container relative grid auto-cols-auto place-content-center py-72  text-mainBlue'>
+		<section className='container relative grid auto-cols-auto place-content-center overflow-hidden py-72 text-mainBlue md:overflow-visible'>
 			<div className='overflow-hidden'>
 				<div className='container'>
 					<h3 className='heading-large rounded-xl bg-heroColor px-3 py-2'>

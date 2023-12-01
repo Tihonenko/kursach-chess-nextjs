@@ -1,7 +1,7 @@
 .input_wrapper {
 	@apply w-full;
 	.label {
-		@apply block text-descColor;
+		@apply ml-3 block text-lg text-descColor;
 	}
 
 	.input {

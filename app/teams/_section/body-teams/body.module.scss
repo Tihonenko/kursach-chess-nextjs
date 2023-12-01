@@ -1,0 +1,31 @@
+.wrapper {
+	@apply mt-14 grid grid-cols-2 gap-x-10 gap-y-14 md:grid-cols-4 xl:mt-20;
+
+	.content {
+		.img {
+			@apply overflow-hidden rounded-full;
+
+			& > img {
+				@apply w-full;
+			}
+		}
+	}
+
+	.info {
+		@apply mt-5 text-center text-descColor;
+
+		& > h4 {
+			@apply font-main text-2xl;
+		}
+
+		& > p {
+			@apply mt-2 text-base md:text-lg;
+		}
+	}
+}
+
+@media (max-width: 595px) {
+	.wrapper {
+		@apply grid-cols-1;
+	}
+}

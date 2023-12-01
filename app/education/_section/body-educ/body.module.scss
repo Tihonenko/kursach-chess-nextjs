@@ -1,0 +1,45 @@
+.greating {
+	@apply relative h-[768px] w-full bg-cover;
+
+	background-image: url('/gallery/chess.jpg');
+
+	.content {
+		@apply z-10 grid gap-10 rounded-md border border-gray-100/30 bg-gray-700 bg-opacity-10 bg-clip-padding px-3 py-5 backdrop-blur-sm backdrop-filter
+		xl:grid-cols-2;
+		.about {
+			@apply text-lg text-secondaryColor;
+		}
+
+		.description {
+			@apply text-mainColor;
+		}
+	}
+
+	.wrapper {
+		@apply container grid h-full w-full place-content-center;
+	}
+}
+
+.info {
+	@apply container mt-20;
+
+	.wrapper {
+		@apply text-white;
+
+		.card {
+			@apply grid gap-10 md:grid-cols-2;
+		}
+
+		.image_club {
+			@apply overflow-hidden rounded-md;
+		}
+	}
+}
+
+.coaches {
+	@apply container relative mt-20;
+
+	.wrapper {
+		@apply grid gap-10 md:grid-cols-2;
+	}
+}

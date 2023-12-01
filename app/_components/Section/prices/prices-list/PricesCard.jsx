@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { CheckIcon } from '@/components/Proxy/proxy-library';
 
 import styles from './prices.module.scss';
-import LinkTo from '@/app/_components/UI/LinkTo/LinkTo';
 
 const PricesCard = ({ card }) => {
 	return (
@@ -33,8 +32,8 @@ const PricesCard = ({ card }) => {
 				className={styles.icon}
 			/>
 			<div className={styles.link_wrapper}>
-				<Link href='/' className='w-full'>
-					<p>Get Enthusiast Plan</p>
+				<Link href='/registration' className='w-full'>
+					<p>Get Plan</p>
 				</Link>
 			</div>
 		</div>

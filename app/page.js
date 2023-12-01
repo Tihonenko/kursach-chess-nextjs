@@ -9,7 +9,7 @@ import Welcome from './_components/Section/welcome/Welcome';
 
 export default function Home() {
 	return (
-		<main className=''>
+		<main>
 			<Hero />
 			<Welcome />
 			<Gallery />

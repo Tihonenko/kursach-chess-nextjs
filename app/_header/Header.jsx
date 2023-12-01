@@ -17,7 +17,7 @@ const Header = () => {
 
 	return (
 		<header
-			className={`bg-lightBlack fixed left-0 top-0 z-10 w-full py-3 text-white`}
+			className={`fixed left-0 top-0 z-50 w-full bg-lightBlack py-3 text-white`}
 		>
 			<div className='container grid grid-cols-4 place-items-center'>
 				<div className='hidden md:block'>
@@ -29,15 +29,17 @@ const Header = () => {
 					</Link>
 				</div>
 				<div className='col-start-1 md:col-span-2'>
-					<Image
-						src='/logo.png'
-						width={70}
-						height={70}
-						alt='logo'
-						className={`invert transition-all duration-500 ease-out ${
-							open ? ' md:opacity-0' : 'delay-700'
-						}`}
-					/>
+					<Link href='/'>
+						<Image
+							src='/logo.png'
+							width={70}
+							height={70}
+							alt='logo'
+							className={`invert transition-all duration-500 ease-out ${
+								open ? ' md:opacity-0' : 'delay-700'
+							}`}
+						/>
+					</Link>
 				</div>
 				<div className='col-start-4'>
 					<button className='h-[20px] w-[30px]' onClick={handleClick}>

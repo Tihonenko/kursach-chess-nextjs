@@ -21,7 +21,7 @@ const data = [
 		priority: [
 			'All Enthusiast',
 			'Advanced Analytics',
-			'Personal Coach',
+			'Four people group',
 			'VIP Invitations',
 		],
 		icons: '/icons/cup.png',

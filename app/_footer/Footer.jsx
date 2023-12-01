@@ -21,7 +21,7 @@ const Footer = () => {
 						</h3>
 					</div>
 				</div>
-				<div className='mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4'>
+				<div className='mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4'>
 					<div>
 						<h4 className='heading-medium text-mainColor'>Address</h4>
 						<p className='mt-2 text-descColor'>
@@ -31,17 +31,76 @@ const Footer = () => {
 					<div>
 						<h4 className='heading-medium text-mainColor'>Contact</h4>
 						<div className='mt-2'>
-							<Link href='/web.telegram.org' className=' text-descColor'>
+							<Link
+								href='/web.telegram.org'
+								className=' footer-link-animate text-descColor'
+							>
 								<p>Telegram</p>
 							</Link>
 						</div>
 						<div className='mt-2'>
-							<Link href='/instagram.com' className=' text-descColor'>
+							<Link
+								href='/instagram.com'
+								className=' footer-link-animate text-descColor'
+							>
 								<p>Instagram</p>
 							</Link>
 						</div>
-						<div className='mt-2 text-descColor'>
+						<div className='footer-link-animate mt-2 text-descColor'>
 							<p>checkmate.info@gmail.com</p>
+						</div>
+					</div>
+					<div>
+						<h4 className='heading-medium text-mainColor'>Club</h4>
+						<div className='mt-2'>
+							<div className='mt-2'>
+								<Link
+									href='/education'
+									className='footer-link-animate text-descColor'
+								>
+									<p>Education</p>
+								</Link>
+							</div>
+							<div className='mt-2'>
+								<Link
+									href='/tournaments'
+									className=' footer-link-animate text-descColor'
+								>
+									<p>Tournaments</p>
+								</Link>
+							</div>
+							<div className='mt-2'>
+								<Link
+									href='/teams'
+									className=' footer-link-animate text-descColor'
+								>
+									<p>Team</p>
+								</Link>
+							</div>
+							<div className='mt-2'>
+								<Link
+									href='/#faq'
+									className=' footer-link-animate text-descColor'
+								>
+									<p>FAQ</p>
+								</Link>
+							</div>
+							<div className='mt-2'>
+								<Link
+									href='/#price'
+									className=' footer-link-animate text-descColor'
+								>
+									<p>Price</p>
+								</Link>
+							</div>
+							<div className='mt-2'>
+								<Link
+									href='/gallery'
+									className=' footer-link-animate text-descColor'
+								>
+									<p>Gallery</p>
+								</Link>
+							</div>
 						</div>
 					</div>
 				</div>

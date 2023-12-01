@@ -7,7 +7,10 @@ const Tournaments = () => {
 		<section className='container mt-44'>
 			<div>
 				<div className='overflow-hidden'>
-					<Link href='/tournaments' className='heading-link-medium'>
+					<Link
+						href='/tournaments'
+						className='heading-link-medium heading-animate'
+					>
 						Upcoming <br /> tournaments
 					</Link>
 				</div>

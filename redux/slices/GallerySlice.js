@@ -3,12 +3,15 @@ import { createSlice } from '@reduxjs/toolkit';
 const initialState = {
 	data: {
 		gallery: [
-			{ img: '/gallery/club-girl-photo-2.jpg' },
-			{ img: '/gallery/club-photo-1.jpg' },
-			{ img: '/gallery/club-photo-2.jpg' },
-			{ img: '/gallery/coach/girl-coach-1.jpg', title: 'coach' },
-			{ img: '' },
-			{ img: '' },
+			{ img: '/gallery/club-girl-photo-2.jpg', title: 'club' },
+			{ img: '/gallery/club-photo-1.jpg', title: 'club' },
+			{ img: '/gallery/club-photo-2.jpg', title: 'club' },
+			{ img: '/gallery/coach/Alice-coach.jpg', title: 'coach' },
+			{ img: '/gallery/club-photo-3.jpg', title: 'club' },
+			{ img: '/gallery/club-photo-4.jpg', title: 'club' },
+			{ img: '/gallery/club-photo-5.jpg', title: 'club' },
+			{ img: '/gallery/club-photo-6.jpg', title: 'club' },
+			{ img: '/gallery/club-photo-7.jpg', title: 'club' },
 		],
 	},
 	imagePaginations: [],
@@ -24,29 +27,6 @@ export const GallerySlice = createSlice({
 	},
 	extraReducers: {},
 });
-
-// export const coffeeTypesAction = createAction('coffeeTypes', () => {
-// 	return {
-// 		data: [
-// 			{
-// 				name: 'Americano',
-// 				price: 9.99,
-// 			},
-// 			{
-// 				name: 'Latte',
-// 				price: 7.99,
-// 			},
-// 			{
-// 				name: 'Сappuccino',
-// 				price: 7.99,
-// 			},
-// 		],
-// 	};
-// });
-// const teaTypesAction = createAction('teaTypes');
-
-// MenuSlice.actions.coffeeTypes = coffeeTypesAction;
-// MenuSlice.actions.teaTypes = teaTypesAction;
 
 export const { imagePagin } = GallerySlice.actions;
 
